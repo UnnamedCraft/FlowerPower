@@ -83,7 +83,7 @@ public class FlowerPowerItems {
             "&5魔法棒",
             "",
             "&e右键单击&7一个魔法花盆",
-            "&7来开始",
+            "&7来激活魔法花盆",
             "",
             ItemTags.TOOL
     );
