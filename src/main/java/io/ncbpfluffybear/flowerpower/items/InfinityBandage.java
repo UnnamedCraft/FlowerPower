@@ -41,13 +41,13 @@ public class InfinityBandage extends SimpleSlimefunItem<ItemUseHandler> implemen
 
             // Check if player has enough exp
             if (exp < EXP_PER_CONSUME) {
-                Utils.send(p, "&cYou can not afford this! Needed exp points: " + EXP_PER_CONSUME);
+                Utils.send(p, "&c你没有足够的经验值！需要 " + EXP_PER_CONSUME + " 点经验。");
                 return;
             }
 
             // Check if player needs healing
             if (health >= maxHealth) {
-                Utils.send(p, "&cYour health is already full!");
+                Utils.send(p, "&c你的生命值已经满了！");
                 return;
             }
 

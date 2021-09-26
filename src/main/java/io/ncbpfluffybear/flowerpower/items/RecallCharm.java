@@ -61,12 +61,12 @@ public class RecallCharm extends SimpleSlimefunItem<ItemUseHandler> {
 
                 // Put location info into lore
                 List<String> lore = charmMeta.getLore();
-                lore.set(LORE_INDEX, Utils.color("&3Bound Location: " + l.getWorld().getName() + " @ " +
+                lore.set(LORE_INDEX, Utils.color("&3标记的位置: " + l.getWorld().getName() + " @ " +
                         l.getBlockX() + ", " + l.getBlockY() + ", " + l.getBlockZ()));
                 charmMeta.setLore(lore);
                 charm.setItemMeta(charmMeta);
 
-                Utils.send(p, "&aYour recall charm has been bound to your current location");
+                Utils.send(p, "&a你的回城符文已绑定到当前位置");
                 return;
             }
 
@@ -74,7 +74,7 @@ public class RecallCharm extends SimpleSlimefunItem<ItemUseHandler> {
 
             // Check if player has sufficient exp
             if (Utils.getTotalExperience(p) < TELEPORT_COST) {
-                Utils.send(p, "&cYou can not afford to teleport! Needed exp points: " + TELEPORT_COST);
+                Utils.send(p, "&c你没有足够的经验来传送！需要 " + TELEPORT_COST + " 点经验。");
                 return;
             }
 
@@ -82,7 +82,7 @@ public class RecallCharm extends SimpleSlimefunItem<ItemUseHandler> {
 
             // Charm not bound yet
             if (locationDat == null) {
-                Utils.send(p, "&cThis recall charm has not been bound yet!");
+                Utils.send(p, "&c此符文还没有被绑定！");
                 return;
             }
 
@@ -97,7 +97,7 @@ public class RecallCharm extends SimpleSlimefunItem<ItemUseHandler> {
             ));
             p.playSound(p.getLocation(), Sound.ENTITY_ENDERMAN_TELEPORT, 1, 1);
 
-            Utils.send(p, "&aYou have teleported successfully");
+            Utils.send(p, "&a你已经被成功传送");
         };
     }
 }

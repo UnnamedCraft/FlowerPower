@@ -63,7 +63,7 @@ public class OvergrowthSeed extends SimpleSlimefunItem<ItemUseHandler> implement
 
             p.playSound(p.getLocation(), Sound.BLOCK_LAVA_POP, 1, 1);
 
-            Utils.send(p, "&a这朵花开始快速生长了...");
+            Utils.send(p, "&a这朵花开始快速生长了……");
 
         };
     }
