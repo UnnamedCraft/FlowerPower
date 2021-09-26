@@ -1,24 +1,24 @@
-# Flower Power
-Welcome to Flower Power, a Slimefun4 addon centered around flowers!
+# 魔法鲜花
+欢迎来到魔法鲜花，一个以花朵为中心的粘液科技 4 插件！
 
-## Contents:
+## 内容：
 
-**Magic Cream:** The start of your Flower Power experience. Dropped by slimes, and required for the most basic recipes.
+**魔法膏**：你的魔法鲜花经历的起点。由史莱姆掉落，是最基本的配方所必需的。
 
-**Magic Basin:** The Multiblock machine used in this addon, used to craft all of the following items.
+**魔法花盆**：这个插件中使用的多方块结构机器，用于制作下面的所有物品。
 
-**Experience Cauldron:** A component of the Magic Basin, or can be used as a standalone experience storage option.
+**经验池**：魔法花盆的一个组成部分，或者也可以作为储存经验的一种方式。
 
-**Magic Wand:** A magical tool used to start Magic Basin reactions.
+**魔法棒**：一个用于使魔法花盆开始出现反应的魔法工具。
 
-**Attribute Charms:** Offhand-held items that provide you with various attribute buffs such as speed, strength, and health boost with randomized intensities.
+**属性符文**：当你拿在副手时可以给予你各种属性的物品，例如速度、力量、生命加成和随机抗性。
 
-**Experience Tome:** A magical item that allows players to store massive amounts of experience.
+**经验典籍**：一个可以让玩家存储大量经验的魔法物品。
 
-**Overgrowth Charms:** A magical item that creates duplicates of the flower that it is used on.
+**过度生长药膏**：一个可以复制所需要的花朵的魔法物品。
 
-**Infinity Apple:** A magical item that can be consumed infinitely at the cost of a small amount of experience.
+**无限苹果**：一个可以用少量经验为代价，无限消耗的魔法物品。
 
-**Infinity Bandage:** A magical item that can be used to heal yourself infinitely at the cost of a small amount of experience.
+**无限绷带**：一个可以用少量经验为代价，无限地给自己恢复生命值的魔法物品。
 
-**Recall Charm:** A magical item that you can bind to a location and use later to teleport back to that location at the cost of a large amount of experience.
+**回城符文**：一个可以标记一个位置，并在稍后将你传送回去，但是消耗大量经验的魔法物品。
