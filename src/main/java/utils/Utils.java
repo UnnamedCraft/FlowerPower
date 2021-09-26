@@ -22,7 +22,7 @@ public class Utils {
     }
 
     public static void send(CommandSender s, String msg) {
-        s.sendMessage(color("&5&l[Magic] " + msg));
+        s.sendMessage(color("&5&l[SlimeFun-Magic] " + msg));
     }
 
     public static void registerEvents(Listener listener) {
