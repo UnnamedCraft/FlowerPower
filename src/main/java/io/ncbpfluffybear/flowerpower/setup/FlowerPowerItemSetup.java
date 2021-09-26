@@ -79,7 +79,7 @@ public class FlowerPowerItemSetup {
 
         new MagicCream(FlowerPowerItems.FLOWERPOWER_CATEGORY, FlowerPowerItems.MAGIC_CREAM, RecipeType.MOB_DROP, new ItemStack[]{
                 null, null, null,
-                null, new CustomItemStack(new ItemStack(Material.SLIME_SPAWN_EGG), "&a史莱姆", "&7杀一只史莱姆"), null,
+                null, new CustomItemStack(new ItemStack(Material.SLIME_SPAWN_EGG), "&aSlime", "&7杀一只史莱姆"), null,
                 null, null, null
         }).register(plugin);
 
