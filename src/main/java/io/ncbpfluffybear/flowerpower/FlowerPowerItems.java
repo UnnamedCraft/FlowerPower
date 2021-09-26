@@ -89,7 +89,7 @@ public class FlowerPowerItems {
     );
     public static final SlimefunItemStack MAGIC_CREAM = new SlimefunItemStack("MAGIC_CREAM",
             Material.MAGMA_CREAM,
-            "&6&l魔法膏",
+            "&6&l魔法药膏",
             "",
             "&7&o一个可以改变魔法属性的粘液球",
             "",
