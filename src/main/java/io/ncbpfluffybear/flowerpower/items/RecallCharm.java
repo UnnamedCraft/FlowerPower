@@ -74,7 +74,7 @@ public class RecallCharm extends SimpleSlimefunItem<ItemUseHandler> {
 
             // Check if player has sufficient exp
             if (Utils.getTotalExperience(p) < TELEPORT_COST) {
-                Utils.send(p, "&c你没有足够的经验来传送！需要 " + TELEPORT_COST + " 点经验。");
+                Utils.send(p, "&c你没有足够的经验来传送！总共需要 " + TELEPORT_COST + " 点经验。");
                 return;
             }
 
